@@ -1,0 +1,92 @@
+    *{
+        margin: 0;
+        padding:0;
+    }
+    body{
+        background: url('http://res.cloudinary.com/kolawole/image/upload/v1611861970/HNG TASk/468239_f7o3dm.jpg');
+        background-size: 100%;
+        
+    }
+
+    .mainBody{
+        max-width: 350px;
+        width: 90vw;
+        margin: 100px auto 0;
+        background-color:rgb(137, 210, 228);
+        border-radius: 10px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        text-transform: uppercase;
+        color: rgb(3, 55, 23);
+        font-size: 18px;
+        margin: 5px 0 20px;
+        font-weight: 800;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+    }
+
+    .input-todo{
+        width: 90%;
+        background: none;
+        border: none;
+        border-bottom: 1px solid rgb(3, 55, 23);
+        padding: 3px 3px 7px;
+        font-size: 14px;
+        color: rgb(3, 55, 23);
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+    }
+
+    .fas-customize, .add-button{
+        background:rgb(137, 210, 228);
+        color: rgb(3, 55, 23);
+        font-size: 25px;
+        border: solid 0 white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .todo-container{
+        display: flex;
+    }
+
+    .todo-list{
+        width: 330px;
+        list-style: none;
+        
+    }
+
+    li:before{
+        content: "\2764";
+        margin-right: 5px;
+        
+    }
+    .todo{
+        background: rgba(2, 74, 30, 0.5);
+        color: rgb(149, 255, 149);
+        font-weight: bolder;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 3px;
+        font-size: 14px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .delete-button{
+        background: rgb(3, 55, 23);;
+        color: white;
+        padding: 8px;
+        font-size: 20px;
+        border: 0;
+    }
